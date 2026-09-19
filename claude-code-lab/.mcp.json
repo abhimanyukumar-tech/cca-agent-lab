@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "shopkart-support": {
+      "command": "python",
+      "args": ["../lab6_mcp_server.py"],
+      "env": {
+        "SHOPKART_API_TOKEN": "${SHOPKART_API_TOKEN}"
+      }
+    }
+  }
+}
